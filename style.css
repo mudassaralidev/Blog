@@ -1,0 +1,35 @@
+body {
+  width: 50%;
+  border: 16px solid rgba(184, 184, 184);
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.navv {
+  color: rgba(9, 158, 163, 0.514);
+  margin-left: 12px;
+
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  padding-top: 0px;
+}
+div {
+  margin-left: 12px;
+  margin-right: 12px;
+  line-height: 16px;
+}
+h2 {
+  color: rgb(49, 37, 84);
+  font-size: 2rem;
+}
+p {
+  margin-left: 4px;
+}
+.border {
+  border-left: 5px solid rgba(184, 184, 184);
+  padding: 5px;
+}
+div p:nth-of-type(4) {
+  border-bottom: 2px solid lightblue;
+}
